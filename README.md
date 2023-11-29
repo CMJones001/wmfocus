@@ -43,7 +43,7 @@ wmfocus will make use of a compositor to get real transparency.
 
 ## Full help
 ```
-wmfocus 1.3.0
+wmfocus 1.4.0
 
 Sven-Hendrik Haase <svenstaro@gmail.com>
 
@@ -109,7 +109,7 @@ This tool is heavily inspired by [i3-easyfocus](https://github.com/cornerman/i3-
 
 This is mostly a note for me on how to release this thing:
 
-- `cargo release --dry-run`
 - `cargo release`
-- Release will automatically be deployed by Github Actions.
+- `cargo release --execute`
+- Release will automatically be deployed by GitHub Actions.
 - Update Arch package.
